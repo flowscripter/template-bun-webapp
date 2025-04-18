@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>template-bun-webapp</title>
+        <script type="module">
+            const oldLog = console.log;
+
+            console.log = (...args) => {
+                oldLog(...args);
+                const textarea = document.getElementById('console');
+
+                if (textarea) {
+                    args.forEach(arg => textarea.value += `${JSON.stringify(arg)}\n`);
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <h2>template-bun-webapp</h2>
+        <p>
+            Project template for a webapp with Bun and Rust compiled to WASM library dependencies.
+        </p>
+        <label for="console">Console:</label><br/>
+        <textarea cols="80" rows="20" id="console"></textarea>
+        <script type="module">
+            import './bundle.js';
+        </script>
+    </body>
+</html>
