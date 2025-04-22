@@ -6,7 +6,7 @@ import * as wasmLib from "@flowscripter/template-bun-wasm-rust-library";
  */
 export async function hello(): Promise<void> {
   console.info("Hello");
-  await bunLib.world();
+  bunLib.world();
   console.info("Hello");
   await wasmLib.world();
 }

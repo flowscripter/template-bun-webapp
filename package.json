@@ -21,13 +21,13 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.9"
+    "@types/bun": "^1.2.10"
   },
   "peerDependencies": {
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@flowscripter/template-bun-library": "1.0.19",
-    "@flowscripter/template-bun-wasm-rust-library": "1.0.1"
+    "@flowscripter/template-bun-wasm-rust-library": "1.0.2"
   }
 }

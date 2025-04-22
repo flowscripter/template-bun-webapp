@@ -10,7 +10,8 @@ Install requirements:
 
     pip3 install -r pip-requirements.txt
 
-Install `geckodriver` from https://github.com/mozilla/geckodriver/releases and ensure the executable is in your _PATH_. 
+Install `geckodriver` from https://github.com/mozilla/geckodriver/releases and
+ensure the executable is in your _PATH_.
 
 #### Testing
 
@@ -18,6 +19,7 @@ Run the functional tests:
 
     behave
 
-To run with logging output from the test steps (this is the best set of arguments I can find):
+To run with logging output from the test steps (this is the best set of
+arguments I can find):
 
-    behave --no-logcapture --no-color --logging-level=DEBUG 
+    behave --no-logcapture --no-color --logging-level=DEBUG
