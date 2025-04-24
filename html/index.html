@@ -3,9 +3,9 @@
   <head>
     <title>template-bun-webapp</title>
     <script type="module">
-      const oldLog = console.log;
+      const oldLog = console.info;
 
-      console.log = (...args) => {
+      console.info = (...args) => {
         oldLog(...args);
         const textarea = document.getElementById("console");
 

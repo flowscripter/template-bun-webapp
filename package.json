@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@flowscripter/template-bun-library": "1.0.19",
-    "@flowscripter/template-bun-wasm-rust-library": "1.0.5"
+    "@flowscripter/template-bun-wasm-rust-library": "1.0.6"
   }
 }

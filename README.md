@@ -37,10 +37,10 @@ Browse to http://127.0.0.1:8000/index.html and check that the browser console
 displays:
 
 ```
-INFO Hello
-INFO World
-INFO Hello
-INFO World 4
+Hello
+World
+Hello
+World 6
 ```
 
 **NOTE**: The following tasks use Deno as it excels at these and Bun does not

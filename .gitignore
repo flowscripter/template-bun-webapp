@@ -176,4 +176,7 @@ dist
 docs/
 template-bun-executable
 /.releaserc
-functional_tests/features/support/__pycache__/pexpect_wrapper.cpython-311.pyc
+functional_tests/features/support/__pycache__
+functional_tests/features/steps/helper/__pycache__
+html/bundle.js
+html/*.wasm
