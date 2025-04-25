@@ -1,0 +1,33 @@
+{
+  "name": "@flowscripter/template-bun-webapp",
+  "description": "Project template for a webapp with Bun and Rust compiled to WASM library dependencies",
+  "homepage": "https://github.com/flowscripter/template-bun-webapp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowscripter/template-bun-webapp.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bun",
+    "example",
+    "template",
+    "webapp",
+    "wasm"
+  ],
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@flowscripter/template-bun-library": "1.0.19",
+    "@flowscripter/template-bun-wasm-rust-library": "1.0.6"
+  }
+}
