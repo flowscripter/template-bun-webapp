@@ -16,6 +16,7 @@
         }
       };
     </script>
+    <script type="module" src="../src/hello.ts"></script>
   </head>
   <body>
     <h2>template-bun-webapp</h2>
@@ -26,8 +27,8 @@
     <label for="console">Console:</label>
     <br />
     <textarea cols="80" rows="20" id="console"></textarea>
-    <script type="module">
-      import "./bundle.js";
+    <script type="module" defer>
+      await hello();
     </script>
   </body>
 </html>

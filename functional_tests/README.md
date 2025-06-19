@@ -4,7 +4,7 @@
 
 Ensure the webapp is bundled:
 
-    bun build ../index.ts --outdir ../html --entry-naming bundle.js --minify
+    bun run build
 
 Install requirements:
 

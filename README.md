@@ -23,18 +23,11 @@ Test:
 
 `bun test`
 
-Bundle:
+Serve dev version:
 
-`bun build index.ts --outdir ./html --entry-naming bundle.js --minify`
+`bun html/index.html`
 
-Serve:
-
-`cd html && python3 -m http.server 8000` and then...
-
-Verify:
-
-Browse to http://127.0.0.1:8000/index.html and check that the browser console
-displays:
+and verify the browser console displays:
 
 ```
 Hello
@@ -42,6 +35,10 @@ World
 Hello
 World 6
 ```
+
+Bundle:
+
+`bun run build`
 
 **NOTE**: The following tasks use Deno as it excels at these and Bun does not
 currently provide such functionality:
@@ -52,7 +49,7 @@ Format:
 
 Lint:
 
-`deno lint index.ts src/ tests/`
+`deno lint src/ tests/`
 
 ## Functional Tests
 
