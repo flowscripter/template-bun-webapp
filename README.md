@@ -1,9 +1,8 @@
 # template-bun-webapp
 
 [![version](https://img.shields.io/github/v/release/flowscripter/template-bun-webapp?sort=semver)](https://github.com/flowscripter/template-bun-webapp/releases)
-[![build](https://img.shields.io/github/actions/workflow/status/flowscripter/template-bun-webapp/release-deno-webapp.yml)](https://github.com/flowscripter/template-bun-webapp/actions/workflows/release-deno-webapp.yml)
+[![build](https://img.shields.io/github/actions/workflow/status/flowscripter/template-bun-webapp/release-bun-webapp.yml)](https://github.com/flowscripter/template-bun-webapp/actions/workflows/release-bun-webapp.yml)
 [![coverage](https://codecov.io/gh/flowscripter/template-bun-webapp/branch/main/graph/badge.svg?token=EMFT2938ZF)](https://codecov.io/gh/flowscripter/template-bun-webapp)
-[![deno doc](https://doc.deno.land/badge.svg)](https://jsr.io/@flowscripter/template-bun-webapp/doc)
 [![license: MIT](https://img.shields.io/github/license/flowscripter/template-bun-webapp)](https://github.com/flowscripter/template-bun-webapp/blob/main/LICENSE)
 
 > Project template for a webapp with Bun and Rust compiled to WASM library
