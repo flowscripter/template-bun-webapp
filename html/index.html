@@ -2,21 +2,6 @@
 <html lang="en">
   <head>
     <title>template-bun-webapp</title>
-    <script type="module">
-      const oldLog = console.info;
-
-      console.info = (...args) => {
-        oldLog(...args);
-        const textarea = document.getElementById("console");
-
-        if (textarea) {
-          args.forEach((arg) =>
-            textarea.value += `${JSON.stringify(arg)}\n`
-          );
-        }
-      };
-    </script>
-    <script type="module" src="../src/hello.ts"></script>
   </head>
   <body>
     <h2>template-bun-webapp</h2>
@@ -27,8 +12,6 @@
     <label for="console">Console:</label>
     <br />
     <textarea cols="80" rows="20" id="console"></textarea>
-    <script type="module" defer>
-      await hello();
-    </script>
+    <script type="module" src="../src/main.ts"></script>
   </body>
 </html>
