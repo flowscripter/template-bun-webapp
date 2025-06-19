@@ -22,7 +22,7 @@ def browser_firefox(context):
 
 @fixture
 def local_webserver(context):
-    web_root = pathlib.Path(__file__).parent.parent.parent.joinpath("html")
+    web_root = pathlib.Path(__file__).parent.parent.parent.joinpath("dist")
 
     handler_class = partial(SimpleHTTPRequestHandler, directory=web_root)
 
