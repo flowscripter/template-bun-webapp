@@ -20,9 +20,7 @@
   "scripts": {
     "build": "bun build.ts"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
   "devDependencies": {
     "@types/bun": "^1.2.19"
   },
