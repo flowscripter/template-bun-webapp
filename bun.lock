@@ -4,14 +4,14 @@
     "": {
       "name": "@flowscripter/template-bun-webapp",
       "dependencies": {
-        "@flowscripter/template-bun-library": "1.0.19",
-        "@flowscripter/template-bun-wasm-rust-library": "1.0.6",
+        "@flowscripter/template-bun-library": "latest",
+        "@flowscripter/template-bun-wasm-rust-library": "latest",
       },
       "devDependencies": {
-        "@types/bun": "^1.2.19",
+        "@types/bun": "latest",
       },
       "peerDependencies": {
-        "typescript": "^5.8.3",
+        "typescript": "latest",
       },
     },
   },
