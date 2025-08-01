@@ -25,7 +25,7 @@
     "@types/bun": "^1.2.19"
   },
   "peerDependencies": {
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "@flowscripter/template-bun-library": "1.0.19",
