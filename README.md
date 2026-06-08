@@ -39,16 +39,13 @@ Bundle:
 
 `bun run build`
 
-**NOTE**: The following tasks use Deno as it excels at these and Bun does not
-currently provide such functionality:
-
 Format:
 
-`deno fmt`
+`bunx oxfmt`
 
 Lint:
 
-`deno lint src/ tests/`
+`bunx oxlint src/ tests/`
 
 ## Functional Tests
 

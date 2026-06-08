@@ -8,7 +8,7 @@ async function start() {
     const textarea = document.getElementById("console") as HTMLTextAreaElement;
 
     if (textarea) {
-      args.forEach((arg) => textarea.value += `${JSON.stringify(arg)}\n`);
+      args.forEach((arg) => (textarea.value += `${JSON.stringify(arg)}\n`));
     }
   };
 
