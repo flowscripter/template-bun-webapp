@@ -6,6 +6,7 @@ from functools import partial
 import socketserver
 import threading
 import pathlib
+import os
 
 address = "127.0.0.1"
 port = 8000
@@ -15,6 +16,9 @@ port = 8000
 def browser_firefox(context):
     options = FirefoxOptions()
     options.add_argument("-headless")
+    # /usr/bin/firefox is a snap shell-script wrapper; geckodriver requires the real binary
+    if os.path.exists("/snap/firefox/current/usr/lib/firefox/firefox"):
+        options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox"
     context.browser = Firefox(options=options)
     yield context.browser
     context.browser.quit()
