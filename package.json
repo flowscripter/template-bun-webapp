@@ -22,7 +22,7 @@
     "build": "bun build.ts"
   },
   "dependencies": {
-    "@flowscripter/template-bun-library": "1.2.2",
+    "@flowscripter/template-bun-library": "1.2.3",
     "@flowscripter/template-bun-wasm-rust-library": "1.2.1"
   },
   "devDependencies": {
