@@ -5,21 +5,21 @@
     "": {
       "name": "@flowscripter/template-bun-webapp",
       "dependencies": {
-        "@flowscripter/template-bun-library": "1.2.11",
-        "@flowscripter/template-bun-wasm-rust-library": "1.2.2",
+        "@flowscripter/template-bun-library": "latest",
+        "@flowscripter/template-bun-wasm-rust-library": "latest",
       },
       "devDependencies": {
-        "@types/bun": "^1.3.14",
-        "oxfmt": "0.55.0",
-        "oxlint": "1.70.0",
+        "@types/bun": "latest",
+        "oxfmt": "latest",
+        "oxlint": "latest",
       },
       "peerDependencies": {
-        "typescript": "^6.0.3",
+        "typescript": "latest",
       },
     },
   },
   "packages": {
-    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.2.11", "", { "peerDependencies": { "typescript": "^6.0.3" } }, "sha512-7FHvXyX1pCE6B1Z5KY1juwW8DrklrHdMqENI/MkoUVedmvyprWgi3fDbb/LX/RgBlR0abZm2q1PRI0RiryS/1A=="],
+    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.2.12", "", { "peerDependencies": { "typescript": "^6.0.3" } }, "sha512-Bi2b5rRzEeDEXlLsh0SkEruvJAqxrbCpWARJ7icYTKmc/PZwbGF7xhj3pbC+0GTYd1eLtUeonwO3LdX+jZS9fg=="],
 
     "@flowscripter/template-bun-wasm-rust-library": ["@flowscripter/template-bun-wasm-rust-library@1.2.2", "", { "peerDependencies": { "typescript": "^6.0.3" } }, "sha512-CdGL6KrZNNIJ5V+SiTQeQ6GcQXNO9Tydp6XQdeMeYW3HjHjUZ/P1cvzMVafSAHLAeYU53O4ERNbHfB78BI5AbQ=="],
 
