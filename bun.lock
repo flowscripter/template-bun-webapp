@@ -19,7 +19,7 @@
     },
   },
   "packages": {
-    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.2.13", "", { "peerDependencies": { "typescript": "^6.0.3" } }, "sha512-xBVQsjd+edcpFKlv7e5+PB0G4P0uVluae+Epflb5NZdPvgzXyHCkpKIPHMesfUa6BNUUsLkqzhi/W1cIhefBcw=="],
+    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.2.14", "", { "peerDependencies": { "typescript": "^6.0.3" } }, "sha512-uJKomWuf1F12YicbFxpY+gmnN01hSHDM9sDMK5De5AURWgQblgAVf60pIiC/nRZTdBfgoF6C/KoEoTBmx1c7vQ=="],
 
     "@flowscripter/template-bun-wasm-rust-library": ["@flowscripter/template-bun-wasm-rust-library@1.2.2", "", { "peerDependencies": { "typescript": "^6.0.3" } }, "sha512-CdGL6KrZNNIJ5V+SiTQeQ6GcQXNO9Tydp6XQdeMeYW3HjHjUZ/P1cvzMVafSAHLAeYU53O4ERNbHfB78BI5AbQ=="],
 
