@@ -1,6 +1,6 @@
 {
   "name": "@flowscripter/template-bun-webapp",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "private": true,
   "description": "Project template for a webapp with Bun and Rust compiled to WASM library dependencies",
   "keywords": [
