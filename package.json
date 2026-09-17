@@ -22,13 +22,13 @@
     "build": "bun build.ts"
   },
   "dependencies": {
-    "@flowscripter/template-bun-library": "1.3.11",
-    "@flowscripter/template-bun-wasm-rust-library": "1.3.12"
+    "@flowscripter/template-bun-library": "1.3.12",
+    "@flowscripter/template-bun-wasm-rust-library": "1.3.14"
   },
   "devDependencies": {
     "@types/bun": "^1.4.2",
-    "oxfmt": "0.67.0",
-    "oxlint": "1.82.0"
+    "oxfmt": "0.68.0",
+    "oxlint": "1.83.0"
   },
   "peerDependencies": {
     "typescript": "^7.0.2"
