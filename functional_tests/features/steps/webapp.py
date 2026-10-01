@@ -1,8 +1,8 @@
 from behave import when, then
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.expected_conditions import presence_of_element_located
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
-from helper.selenium import element_value_is_non_empty
 
 import logging
 
@@ -25,12 +25,15 @@ def step_impl(context, element_id):
 @then('the page element with ID "{element_id}" should have text "{message}"')
 def step_impl(context, element_id, message):
 
-    log.debug('waiting for element "{}" to have a text value'.format(element_id))
+    log.debug('waiting for element "{}" to have text "{}"'.format(element_id, message))
 
-    WebDriverWait(context.browser, 3).until(element_value_is_non_empty((By.ID, element_id)))
+    def element_has_text(driver):
+        value = driver.find_element(By.ID, element_id).get_property('value') or ''
+        return message in value
 
-    text = context.browser.find_element(By.ID, element_id).get_property('value')
-
-    log.debug('looking for "{}" in "{}"'.format(message, text))
-
-    assert message in text
+    try:
+        WebDriverWait(context.browser, 10).until(element_has_text)
+    except TimeoutException:
+        text = context.browser.find_element(By.ID, element_id).get_property('value')
+        raise AssertionError(
+            'expected "{}" to contain "{}", actual text was "{}"'.format(element_id, message, text))
