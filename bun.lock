@@ -5,11 +5,11 @@
     "": {
       "name": "@flowscripter/template-bun-webapp",
       "dependencies": {
-        "@flowscripter/template-bun-library": "1.3.22",
-        "@flowscripter/template-bun-wasm-rust-library": "1.3.30",
+        "@flowscripter/template-bun-library": "1.3.23",
+        "@flowscripter/template-bun-wasm-rust-library": "1.3.32",
       },
       "devDependencies": {
-        "@types/bun": "^1.4.3",
+        "@types/bun": "^1.4.4",
         "oxfmt": "0.74.0",
         "oxlint": "1.89.0",
       },
@@ -19,9 +19,9 @@
     },
   },
   "packages": {
-    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.3.22", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-y6JSzZsC0x71Tn2NPmPnZc1w2EFJs/FW8jbhe4g4toSioocDi5xl+GyYBdtLorTcHtMEfN8BDlC7/jkP7tXvzA=="],
+    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.3.23", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-68fdBqHgiPgaBRrxniuHv3fpqC+u4KHhOCuooqxPZCodY+HH/nz0VHfR/dTj5/VjyHDvBHEzxynflT+zAtFdOA=="],
 
-    "@flowscripter/template-bun-wasm-rust-library": ["@flowscripter/template-bun-wasm-rust-library@1.3.30", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-rd3lMNQiXtNQFwKD2UTCBnreKPDpcyKgp0vNgh8RDj0OsjDdmGtJvqSBGQ2q9RLwpfch0hxyxdxjCCC/ZAnJ2g=="],
+    "@flowscripter/template-bun-wasm-rust-library": ["@flowscripter/template-bun-wasm-rust-library@1.3.32", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-rlHaSalcwFFjP7ONdz1oqNyuWcwB0rqCJ3ixmS5ci/B0DH4MCUqRpJgoGbsVLiFWYXfjyMnu8luB5w0qpqf4kQ=="],
 
     "@oxfmt/binding-android-arm-eabi": ["@oxfmt/binding-android-arm-eabi@0.74.0", "", { "os": "android", "cpu": "arm" }, "sha512-xxQwrf5EPI5zxvuCTW8r6tzCTjPQ+h6+HqJ0iRKRy2zS1yBllt/xLVjoIyUc+FnR7g0a5g1SZv2yyDYhTItLbA=="],
 
@@ -99,7 +99,7 @@
 
     "@oxlint/binding-win32-x64-msvc": ["@oxlint/binding-win32-x64-msvc@1.89.0", "", { "os": "win32", "cpu": "x64" }, "sha512-hLFJ/o0f/dTJh/EW0vmcbREYSQO9tYgfiAAlsOkiLFiJuRRWvYtFELUXN5o2ijpSo/tlO1n+YlWN58tZwPG18A=="],
 
-    "@types/bun": ["@types/bun@1.4.3", "", { "dependencies": { "bun-types": "1.4.3" } }, "sha512-N67Pqy8JXbAY/j0tNraS3V5mubGvc6rrrNDmDCtZLlFzccbUJPDb0tvgUBC5q4m8ybkP93Jcn1QB+RYQ6PvBhw=="],
+    "@types/bun": ["@types/bun@1.4.4", "", { "dependencies": { "bun-types": "1.4.4" } }, "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ=="],
 
     "@types/node": ["@types/node@26.6.5", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg=="],
 
@@ -143,7 +143,7 @@
 
     "@typescript/typescript-win32-x64": ["@typescript/typescript-win32-x64@7.0.2", "", { "os": "win32", "cpu": "x64" }, "sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g=="],
 
-    "bun-types": ["bun-types@1.4.3", "", { "dependencies": { "@types/node": "*", "undici-types": "*" } }, "sha512-tinRJNGOmUN+tEAsn2y2e942n9JHRHR42iUYzDH75NmhJqVBokGSQkkfSFdNWwsANIdrK6ACH9t01M452YyTwg=="],
+    "bun-types": ["bun-types@1.4.4", "", { "dependencies": { "@types/node": "*", "undici-types": "*" } }, "sha512-yjrJh5oGX7mMPKGd19YXyIjmEuj4G4zNC30bs7PM9Az7NQ3ndF3j6hbeRdvJTRQEhJ/FYQwW0a2moweEi2hMxQ=="],
 
     "oxfmt": ["oxfmt@0.74.0", "", { "dependencies": { "tinypool": "2.2.0" }, "optionalDependencies": { "@oxfmt/binding-android-arm-eabi": "0.74.0", "@oxfmt/binding-android-arm64": "0.74.0", "@oxfmt/binding-darwin-arm64": "0.74.0", "@oxfmt/binding-darwin-x64": "0.74.0", "@oxfmt/binding-freebsd-x64": "0.74.0", "@oxfmt/binding-linux-arm-gnueabihf": "0.74.0", "@oxfmt/binding-linux-arm-musleabihf": "0.74.0", "@oxfmt/binding-linux-arm64-gnu": "0.74.0", "@oxfmt/binding-linux-arm64-musl": "0.74.0", "@oxfmt/binding-linux-ppc64-gnu": "0.74.0", "@oxfmt/binding-linux-riscv64-gnu": "0.74.0", "@oxfmt/binding-linux-riscv64-musl": "0.74.0", "@oxfmt/binding-linux-s390x-gnu": "0.74.0", "@oxfmt/binding-linux-x64-gnu": "0.74.0", "@oxfmt/binding-linux-x64-musl": "0.74.0", "@oxfmt/binding-openharmony-arm64": "0.74.0", "@oxfmt/binding-win32-arm64-msvc": "0.74.0", "@oxfmt/binding-win32-ia32-msvc": "0.74.0", "@oxfmt/binding-win32-x64-msvc": "0.74.0" }, "peerDependencies": { "@astrojs/compiler-rs": "^0.4.0 || ^0.5.0", "svelte": "^5.0.0", "vite-plus": "*" }, "optionalPeers": ["@astrojs/compiler-rs", "svelte", "vite-plus"], "bin": { "oxfmt": "bin/oxfmt" } }, "sha512-G4OP7FgwGYZR5ttRpCOOfJdyRsSyvtn34vSXnjDq6Oqed5Dufg5mB44mank+51nAdHOKuTJ0lj0mksY7L+N61A=="],
 
