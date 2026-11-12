@@ -23,12 +23,12 @@
   },
   "dependencies": {
     "@flowscripter/template-bun-library": "1.3.26",
-    "@flowscripter/template-bun-wasm-rust-library": "1.3.39"
+    "@flowscripter/template-bun-wasm-rust-library": "1.3.40"
   },
   "devDependencies": {
     "@types/bun": "^1.4.4",
-    "oxfmt": "0.77.0",
-    "oxlint": "1.92.0"
+    "oxfmt": "0.78.0",
+    "oxlint": "1.93.0"
   },
   "peerDependencies": {
     "typescript": "^7.0.2"
