@@ -5,8 +5,8 @@
     "": {
       "name": "@flowscripter/template-bun-webapp",
       "dependencies": {
-        "@flowscripter/template-bun-library": "1.3.26",
-        "@flowscripter/template-bun-wasm-rust-library": "1.3.40",
+        "@flowscripter/template-bun-library": "1.3.27",
+        "@flowscripter/template-bun-wasm-rust-library": "1.3.41",
       },
       "devDependencies": {
         "@types/bun": "^1.4.4",
@@ -19,9 +19,9 @@
     },
   },
   "packages": {
-    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.3.26", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-eKQGQ5NSQF0DBINBw7Iot9o0Gy3gkNqgHAA1S3bgsfR73Wgj6W+luBh26sEa+xeR9QGs0pCXqkqyRUo7GG+KGA=="],
+    "@flowscripter/template-bun-library": ["@flowscripter/template-bun-library@1.3.27", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-O0lNi71AsfSjNN7JtFMjHxowsARn9KAMS1v8s6cg6LZW5UgbiiaIty5V5uL2Zi6qgeOgowSN79UbATWwvncycg=="],
 
-    "@flowscripter/template-bun-wasm-rust-library": ["@flowscripter/template-bun-wasm-rust-library@1.3.40", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-hbXkl9wU0WrMn2OmkJVkwSDfgG7kLdqjMAP57TMgb1R1nXKqCPQZV5l5zgGTEGthmdN9Ir4W4PthzAv3TYdEJg=="],
+    "@flowscripter/template-bun-wasm-rust-library": ["@flowscripter/template-bun-wasm-rust-library@1.3.41", "", { "peerDependencies": { "typescript": "^7.0.2" } }, "sha512-Z+ma64rxRv66RbDVHAVeV/kG0cG+bqGzQRvYIHVoOaVAB96LWnrZYz+pWldq8RjgtvENEUIe0TxVVkrXwbxF7Q=="],
 
     "@oxfmt/binding-android-arm-eabi": ["@oxfmt/binding-android-arm-eabi@0.78.0", "", { "os": "android", "cpu": "arm" }, "sha512-1x9NPGQG5WMOOT8spRP4hPbeqwB/P9ayxFo4EUDSle6mLmtYRqE6suXgHr93/S2nnszy77LlIa8klkKdWtHbMw=="],
 
